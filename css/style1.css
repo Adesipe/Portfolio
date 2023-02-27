@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(29, 27, 27);
+}
+.image {
+    margin: 7%  10%;
+}
+.sub1 {
+    color: #ffffff;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: -38%;
+}
+h1 {
+    font-size: 45px;
+    margin-top: 20%;
+}
+.sub2 {
+    margin-top: 3%;
+}
+span {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 37px;
+    color: #521152;
+    margin-top: -1%;
+    margin-bottom: 4%;
+}
+button {
+    font-size: 27px;
+    margin-top: 4%;
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: #d699a3;
+}
