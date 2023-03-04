@@ -3,17 +3,93 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: #0e0e88;
+header {
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.box div {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid white;
+}
+.box div:nth-child(1) {
+    margin-top: 5%;
+    margin-left: 12%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(2) {
+    margin-top: 5%;
+    margin-left: 29%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(3) {
+    margin-top: -10%;
+    margin-left: 49%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(4) {
+    margin-top: 7%;
+    margin-left: 69%;
+    animation: animate 10s linear infinite;
+}
+.box div:nth-child(5) {
+    margin-top: -15%;
+    margin-left: 80%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(6) {
+    margin-top: 12%;
+    margin-left: 8%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(7) {
+    margin-top: 7%;
+    margin-left: 33%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(8) {
+    margin-top: -7%;
+    margin-left: 57%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(9) {
+    margin-top: -4%;
+    margin-left: 85%;
+    animation: animate 12s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+.navlinks {
+    margin-left: 28%;
+    margin-top: -13%;
 }
 .logo {
     padding: 30px 50px;
+    margin-top: -20%;
     font-size: 17px;
     color: rgb(172, 39, 39);
     text-transform: uppercase;
 }
+h1 {
+    margin-top: -14%;
+    position: fixed;
+}
+
 span {
     color: #ffffff;
+    font-size: 25px;
+    position: fixed;
 }
 header .container {
     position: relative;
@@ -23,15 +99,12 @@ nav, ul {
     align-content: space-around;
     justify-content: space-around;
     padding: 10px;
+    margin-top: -8%;
 }
 nav, ul, li {
     padding: 15px;
     text-decoration: none;
     list-style: none;
-}
-.navlinks {
-    margin-left: 30%;
-    margin-top: -100px;
 }
 header .container .navlinks a{
     position: relative;
@@ -63,14 +136,16 @@ header .container .navlinks a:hover::before{
 h3 {
     font-size: 27px;
     text-transform: uppercase;
-    color: #030333;
+    color: #7f7fa3;
 }
 h4 {
     color: #ffffff;
-    margin-top: 10px;
+    margin-top: -20%;
     font-size: 22px;
 }
 p {
     margin-top: 3px;
     font-size: 23px;
+    text-transform: lowercase;
+    color: #ffffff;
 }

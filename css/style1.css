@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(29, 27, 27);
+    background-image: url(/Portfolio/images/portfolio.jpg);
 }
 .image {
     margin: 7%  10%;
+}
+img {
+    border: 10px solid #c0c0c0;
+    border-radius: 100%;
 }
 .sub1 {
     color: #ffffff;
@@ -18,6 +22,10 @@ body {
 h1 {
     font-size: 45px;
     margin-top: 20%;
+    color: aqua;
+}
+span {
+    color: rgb(16, 150, 150);
 }
 .sub2 {
     margin-top: 3%;
@@ -42,5 +50,5 @@ button {
     color: white;
 }
 button:hover {
-    background-color: #d699a3;
+    background-color: #af7780;
 }
